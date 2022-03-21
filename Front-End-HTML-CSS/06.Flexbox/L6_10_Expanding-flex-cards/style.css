@@ -28,7 +28,3 @@ img{
 .img:nth-child(2){
     flex-basis: 50%;
 }
-.img:nth-child(2):hover{
-    flex-basis: 53%;
-    transform: flex-basis 2s;
-}
