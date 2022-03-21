@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+h1{
+    text-transform: uppercase;
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+}
+h1, h2, p{
+    padding-left: 20px;
+    padding-right: 20px;
+}

@@ -1,0 +1,24 @@
+html{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+    font-size: 16px;
+    line-height: 1.5;
+}
+section, header, footer{
+    max-width: 815px;
+    display: inline-block;
+}
+article img{
+    max-width: 600px;
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+}
+article{
+    margin: 30px auto;
+    min-width: 1200px;
+    max-width: 1200px;
+}

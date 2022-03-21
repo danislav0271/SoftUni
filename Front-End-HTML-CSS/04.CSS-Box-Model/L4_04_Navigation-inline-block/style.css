@@ -1,0 +1,27 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+body{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+h1,
+nav {
+  display: inline-block;
+}
+header h1 {
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+header li a {
+  color: #009d00;
+  text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+header{
+    border-bottom: 2px solid black;
+}

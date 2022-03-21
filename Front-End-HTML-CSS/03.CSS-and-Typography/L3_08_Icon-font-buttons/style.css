@@ -1,0 +1,19 @@
+body{
+    padding: 40px;
+}
+.clickme{
+    background-color: green;
+}
+.email{
+    background-color: orange;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+section{
+    margin: 45px 45px;
+}

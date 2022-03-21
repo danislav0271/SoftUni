@@ -1,0 +1,23 @@
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+}
+li{
+    display: inline;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+body{
+    max-width: 1200px;
+    margin: 40px auto;
+}

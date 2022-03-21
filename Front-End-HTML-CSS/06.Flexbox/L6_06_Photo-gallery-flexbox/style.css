@@ -1,0 +1,18 @@
+body, ul, li{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    max-width: 1200px;
+}
+li{
+    border: 12px solid black;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px 4px grey;
+
+}
+body{
+    margin: 80px auto;
+    background-color: #EEEEEE;
+}

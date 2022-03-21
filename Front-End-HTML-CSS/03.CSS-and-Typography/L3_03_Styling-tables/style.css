@@ -1,0 +1,28 @@
+tbody tr:nth-child(odd){
+    background-color: rgb(241, 241, 241);
+}
+td{
+    border-width: .5px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+}
+table{
+    border-width: .5px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    width: 500px;
+    border-spacing: 0px;
+}
+th{
+    background: rgb(221, 221, 221);
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+}
+tbody tr:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+thead{
+    text-align: left;
+}

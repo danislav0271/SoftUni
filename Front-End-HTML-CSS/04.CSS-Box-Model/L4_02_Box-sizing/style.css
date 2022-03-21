@@ -1,0 +1,24 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+section{
+    width: 250px;
+    height: 250px;
+    border: 4px;
+    border-style: dotted;
+    border-color: aquamarine;
+    margin: 40px auto;
+    text-align: center;
+}
+p{
+    padding: 20px;
+    width: 100%;
+    border: 4px;
+    border-style: solid;
+    border-color: blue;
+}

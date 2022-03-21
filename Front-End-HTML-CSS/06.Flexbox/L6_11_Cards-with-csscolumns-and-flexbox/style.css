@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards-layout{
+    max-width: 1000px;
+    margin: 70px auto;
+}
+.card{
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 6px;
+    margin: 22px;
+    background-color: white;
+}
+.card-header img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card-content{
+    padding: 15px;
+}
+.card-footer{
+    border-top: 1px solid lightgray;
+    padding: 15px;
+}
+.cards-layout-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+
+.mansory .card{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 25%;
+}
+.flex .cards-layout-title{
+    flex-basis: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+}
+.flex .card .card-content{
+    flex-grow: 1;
+}
